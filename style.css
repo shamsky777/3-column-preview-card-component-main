@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparentwhite-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --verylightgray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+
+    width: 1200px;
+    height: 600px;
+
+    margin: 0 auto;
+    top: 15%;
+
+    display: flex;
+}
+
+.card1 {
+    width: 33.5%;
+    height: 600px;
+
+    background-color: var(--bright-orange);
+}
+
+.card_container {
+    position: relative;
+
+    width: 300px;
+    height: 500px;
+
+    margin: 0 auto;
+    top: 8%;
+
+    padding: 20px;
+}
+
+.card_container h1 {
+    position: relative;
+    top: 10%;
+
+    color: var(--verylightgray-background-headings-buttons);
+}
+
+.card_container p{
+    position: relative;
+    top: 20%;
+    font-size: 25px;
+
+    color: var(--transparentwhite-paragraphs);
+}
+
+.card_container a {
+    position: relative;
+    top: 30%;
+}
+
+.card_container button {
+    width: 140px;
+    height: 40px;
+
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.card1 .card_container button font {
+    color: var(--bright-orange);
+}
+
+.card2 {
+    width: 33.5%;
+    height: 600px;
+
+    background-color: var(--dark-cyan);
+}
+
+.card2 .card_container button font {
+    color: var(--dark-cyan);
+}
+
+.card3 {
+    width: 33.5%;
+    height: 600px;
+
+    background-color: var(--very-dark-cyan);
+}
+
+.card3 .card_container button font {
+    color: var(--very-dark-cyan);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
